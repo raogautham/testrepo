@@ -4,32 +4,8 @@
     <xsd:documentation>Copyright Vertex Inc. 2007-2012 All Rights Reserved</xsd:documentation>
   </xsd:annotation>
   <xsd:include schemaLocation="testFolder/test_2.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-DistributeTax.xsd">
-    <xsd:annotation>
-      <xsd:documentation>The request used to accept a combined total tax amount for a purchase and distribute that tax to the appropriate jurisdictions. The combined rates for the taxing jurisdictions are used with the total tax amount to determine the taxable base and then redistribute the calculated taxes to each level for remittance. Vertex Central rules in effect as of the date in the documentDate attribute are used. If records for jurisdiction registration, product exception, or customer exception or exemption are dated on or before that date, they are used in the calculation process. Distribute Sales Tax transactions are written to the Tax Journal.</xsd:documentation>
-    </xsd:annotation>
-  </xsd:include>
-  <xsd:include schemaLocation="indirect/VertexInc-ERS.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-InventoryRemoval.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-Invoice.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-InvoiceVerification.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-PurchaseOrder.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-Quotation.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-Reversal.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-Rollback.xsd"/>
-  <xsd:include schemaLocation="indirect/VertexInc-Exists.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-FindChangedTaxAreaRequest.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-FindChangedTaxAreaResponse.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-ChangedTaxAreaRequest.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-ChangedTaxAreaResponse.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-FindTaxAreasRequest.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-FindTaxAreasResponse.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-TaxAreaRequest.xsd"/>
-  <xsd:include schemaLocation="taxgis/VertexInc-TaxAreaResponse.xsd"/>
-  <xsd:include schemaLocation="version/VertexInc-Version.xsd"/>
-  <xsd:annotation>
-    <xsd:documentation>Vertex Envelope composite message. Declaration of structure and data types.</xsd:documentation>
-  </xsd:annotation>
+ 
+  
   <xsd:element name="VertexEnvelope">
     <xsd:annotation>
       <xsd:documentation>Vertex envelope containing transaction information. </xsd:documentation>
