@@ -4,7 +4,7 @@ xmlns:vev="urn:vertexinc:o-series:tps:7:0"
 xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="TicketServiceService" targetNamespace="http://soap.training.mulesoft.com/">
     <wsdl:types>
         <xsd:schema>
-            <xsd:import namespace="urn:vertexinc:o-series:tps:7:0" schemaLocation="test_1.xsd"/>
+            <xsd:import namespace="urn:vertexinc:o-series:tps:7:0" schemaLocation="https://raw.githubusercontent.com/raogautham/testrepo/master/test_1.xsd"/>
         </xsd:schema>
     </wsdl:types>
     
