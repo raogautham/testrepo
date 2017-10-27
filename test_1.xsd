@@ -3,6 +3,7 @@
   <xsd:annotation>
     <xsd:documentation>Copyright Vertex Inc. 2007-2012 All Rights Reserved</xsd:documentation>
   </xsd:annotation>
+  
   <xsd:include schemaLocation=https://raw.githubusercontent.com/raogautham/testrepo/master/testFolder/test_2.xsd"/>
   
   <xsd:element name="VertexEnvelope">
